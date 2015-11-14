@@ -1,0 +1,12 @@
+{
+  "name": "react-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
+  "license": "ISC"
+}
