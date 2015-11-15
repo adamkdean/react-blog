@@ -22,6 +22,6 @@ module.exports = exports = function *() {
     outputStyle: 'compressed',
     force: true,
     debug: true,
-    response: true
+    response: false
   }));
 };
