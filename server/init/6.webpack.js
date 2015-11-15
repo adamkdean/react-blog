@@ -9,7 +9,6 @@ module.exports = exports = function *() {
         compiler = webpack(config);
 
   compiler.run((err, stats) => {
-    console.log('finished running webpack compiler');
     err && console.log(err);
   });
 };
