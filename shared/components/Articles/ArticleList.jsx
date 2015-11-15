@@ -9,9 +9,13 @@ class ArticleList extends Component {
 
   render() {
     const articleList = this.articles.map((article) => {
-      console.log(article)
       return (
-        <Article title={article.title}>{article.content}</Article>
+        <Article
+          key={article.id}
+          slug={article.slug}
+          title={article.title}>
+          {article.content}
+        </Article>
       )
     })
     return (

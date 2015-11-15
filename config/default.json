@@ -1,54 +1,64 @@
 {
   "applicationName": "react-blog",
-  "foo": "this is foo, which is bar",
+  "articlesPerPage": 2,
   "articles": [
     {
       "id": 1,
+      "slug": "blog-post-one",
       "title": "Blog Post One",
       "content": "One. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 2,
+      "slug": "blog-post-two",
       "title": "Blog Post Two",
       "content": "Two. Nam porta enim turpis, eu pulvinar mi malesuada ac. Vivamus tempor eu magna non lacinia. Curabitur eget leo facilisis, porta orci vitae, tristique tortor. Sed interdum tempor porta. Maecenas convallis metus et lacus facilisis maximus. Suspendisse vulputate, tellus eu accumsan placerat, massa lectus interdum nisi, a cursus tortor risus a sapien. Sed eu tempus urna. Morbi interdum fringilla diam in fringilla. Proin non turpis ante. Aliquam mollis at purus maximus gravida."
     },
     {
       "id": 3,
+      "slug": "blog-post-three",
       "title": "Blog Post Three",
       "content": "Three. Vestibulum non nisi condimentum, tincidunt risus non, semper lacus. Sed laoreet purus eu lacinia iaculis. Phasellus eu ornare ante, non mollis lectus. Nam facilisis a mi vitae facilisis. Vivamus eleifend augue bibendum magna malesuada rhoncus. Sed odio arcu, feugiat et dui quis, efficitur eleifend metus. Fusce non hendrerit elit. Phasellus in laoreet nulla, id hendrerit lorem. Maecenas mollis leo nibh, et tincidunt lorem congue non. Maecenas congue urna quis augue finibus, eu consequat metus pulvinar. Suspendisse dictum dui et sapien porta fringilla. Cras vitae velit vitae mauris ornare consectetur at ornare lectus. Vestibulum nec nibh rhoncus, rhoncus tellus eget, faucibus quam. Aenean pretium sed lectus rutrum dapibus."
     },
     {
       "id": 4,
+      "slug": "blog-post-four",
       "title": "Blog Post Four",
       "content": "Four. Fusce eleifend consequat efficitur. Duis ut consequat purus. Donec non turpis at nulla mollis lacinia congue ut purus. Cras eleifend pretium tempor. Pellentesque vestibulum nec augue ut finibus. Nam vitae egestas leo. Ut sed nisl rhoncus, accumsan tellus quis, volutpat odio. Sed elementum nunc leo, ac mattis ex elementum ut. Nam vitae congue quam. Donec viverra sollicitudin turpis sit amet ultricies. Aliquam ut mollis nibh. Fusce interdum ligula id metus lobortis convallis. Praesent dignissim molestie est at luctus. Maecenas eu nisl quis est cursus commodo congue eget justo. In hac habitasse platea dictumst."
     },
     {
       "id": 5,
+      "slug": "blog-post-five",
       "title": "Blog Post Five",
       "content": "Five. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 6,
+      "slug": "blog-post-six",
       "title": "Blog Post Six",
       "content": "Six. Nam porta enim turpis, eu pulvinar mi malesuada ac. Vivamus tempor eu magna non lacinia. Curabitur eget leo facilisis, porta orci vitae, tristique tortor. Sed interdum tempor porta. Maecenas convallis metus et lacus facilisis maximus. Suspendisse vulputate, tellus eu accumsan placerat, massa lectus interdum nisi, a cursus tortor risus a sapien. Sed eu tempus urna. Morbi interdum fringilla diam in fringilla. Proin non turpis ante. Aliquam mollis at purus maximus gravida."
     },
     {
       "id": 7,
+      "slug": "blog-post-seven",
       "title": "Blog Post Seven",
       "content": "Seven. Vestibulum non nisi condimentum, tincidunt risus non, semper lacus. Sed laoreet purus eu lacinia iaculis. Phasellus eu ornare ante, non mollis lectus. Nam facilisis a mi vitae facilisis. Vivamus eleifend augue bibendum magna malesuada rhoncus. Sed odio arcu, feugiat et dui quis, efficitur eleifend metus. Fusce non hendrerit elit. Phasellus in laoreet nulla, id hendrerit lorem. Maecenas mollis leo nibh, et tincidunt lorem congue non. Maecenas congue urna quis augue finibus, eu consequat metus pulvinar. Suspendisse dictum dui et sapien porta fringilla. Cras vitae velit vitae mauris ornare consectetur at ornare lectus. Vestibulum nec nibh rhoncus, rhoncus tellus eget, faucibus quam. Aenean pretium sed lectus rutrum dapibus."
     },
     {
       "id": 8,
+      "slug": "blog-post-eight",
       "title": "Blog Post Eight",
       "content": "Eight. Fusce eleifend consequat efficitur. Duis ut consequat purus. Donec non turpis at nulla mollis lacinia congue ut purus. Cras eleifend pretium tempor. Pellentesque vestibulum nec augue ut finibus. Nam vitae egestas leo. Ut sed nisl rhoncus, accumsan tellus quis, volutpat odio. Sed elementum nunc leo, ac mattis ex elementum ut. Nam vitae congue quam. Donec viverra sollicitudin turpis sit amet ultricies. Aliquam ut mollis nibh. Fusce interdum ligula id metus lobortis convallis. Praesent dignissim molestie est at luctus. Maecenas eu nisl quis est cursus commodo congue eget justo. In hac habitasse platea dictumst."
     },
     {
       "id": 9,
+      "slug": "blog-post-nine",
       "title": "Blog Post Nine",
       "content": "Nine. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
       "id": 10,
+      "slug": "blog-post-ten",
       "title": "Blog Post Ten",
       "content": "Ten. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }

@@ -1,13 +1,15 @@
-div.article {
-  background: white;
-  margin: 1rem;
-  padding: 0.8rem;
+div.article-list {
+  div.article {
+    background: white;
+    margin: 1rem;
+    padding: 0.8rem;
 
-  h2 {
-    margin: 0.5rem 0 1rem 0;
-  }
+    h2 {
+      margin: 0.5rem 0 1rem 0;
+    }
 
-  div.content {
-    color: #333;
+    div.content {
+      color: #333;
+    }
   }
 }

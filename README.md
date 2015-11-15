@@ -35,3 +35,7 @@ A rough list of the components I'll need:
 ## A note about ES6 Modules & CommonJS
 
 As CommonJS isn't 100% compatible with ES6 modules, we have to fallback to using module.exports in the JSX files (ES6 modules), otherwise the consumer (which use CommonJS) would need to write `require('./App').default`, and that's no good. Let me know if you have a better way around this.
+
+## Versions
+
+For what it's worth, the version of my Node.js was `4.2.1` and npm `3.3.12`.

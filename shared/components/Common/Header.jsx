@@ -10,7 +10,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>{this.title}</h1>
+        <h1><a href="/">{this.title}</a></h1>
         <p>{this.subtitle}</p>
       </header>
     )

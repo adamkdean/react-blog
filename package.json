@@ -21,6 +21,7 @@
     "koa-router": "^5.2.3",
     "koa-scss": "^0.2.0",
     "koa-serve": "^0.1.6",
+    "lodash": "^3.10.1",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
     "reqmany": "0.0.3"

@@ -1,0 +1,38 @@
+div.pagination {
+  text-align: center;
+
+  ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 0.9rem;
+
+    li {
+      display: inline;
+
+      a {
+        position: relative;
+        float: left;
+        background: #eee;
+        padding: 0.4rem 0.6rem;
+
+        &.current {
+          text-decoration: none;
+          background: #006EA4;
+          color: #fff;
+        }
+
+        &:hover {
+          text-decoration: none;
+          background: #0087BD;
+          color: #fff;
+        }
+      }
+    }
+
+    &:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  }
+}
