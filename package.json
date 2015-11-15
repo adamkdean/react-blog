@@ -1,7 +1,7 @@
 {
   "name": "react-blog",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.0",
+  "description": "My attempt at a React powered blog",
   "main": "server/app.js",
   "scripts": {
     "start": "node --harmony server/start.js",
