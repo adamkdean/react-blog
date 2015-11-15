@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div id="container">{{{ html }}}</div>
+
+    <script type="text/javascript">
+        window.__STATE__ = {{{ json state }}};
+    </script>
+
+    <script src="static/js/bundle.js"></script>
+</body>
+</html>

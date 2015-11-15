@@ -4,16 +4,23 @@
   "description": "",
   "main": "server/app.js",
   "scripts": {
-    "start": "node --harmony server/start.js"
+    "start": "node --harmony server/start.js",
+    "dev": "nodemon -e js,jsx --harmony server/start.js"
   },
   "keywords": [],
   "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
   "license": "ISC",
   "dependencies": {
+    "co": "^4.6.0",
     "co-views-ext": "^1.0.1",
+    "config": "^1.16.0",
+    "handlebars": "^4.0.4",
     "koa": "^1.1.2",
+    "koa-favicon": "^1.2.0",
     "koa-logger": "^1.3.0",
     "koa-router": "^5.2.3",
-    "koa-serve": "^0.1.6"
+    "koa-scss": "^0.2.0",
+    "koa-serve": "^0.1.6",
+    "reqmany": "0.0.3"
   }
 }
