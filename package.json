@@ -1,6 +1,6 @@
 {
   "name": "react-blog",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "My attempt at a React powered blog",
   "main": "server/app.js",
   "scripts": {

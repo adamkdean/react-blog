@@ -4,6 +4,10 @@ My attempt at a React powered blog.
 
 Current state: `non-functional`  
 
+## Screenshot (v0.1.0)
+
+![Screen Shot 2015-11-15 at 22.17.25](https://i.imgur.com/t5asB8t.png)
+
 ## Idea
 
 The idea is that you should only have to write code once, whether that's for server-side or client-side consumption. When developing an application, you *should* keep in mind that you're writing for both server & client, but you shouldn't have to write two different sets of code for each.
