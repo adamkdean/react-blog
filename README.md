@@ -4,9 +4,10 @@ My blog, re-written using React.
 
 ## Components
 
-Layout
-- Header
-- Content
-  - ArticleList
-    - Article
-- Footer
+App
+- Layout
+  - Header
+  - Content
+    - ArticleList
+      - Article
+  - Footer

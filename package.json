@@ -5,7 +5,7 @@
   "main": "server/app.js",
   "scripts": {
     "start": "node --harmony server/start.js",
-    "dev": "nodemon -e js,jsx --harmony server/start.js"
+    "dev": "nodemon -e js,jsx --ignore static/ --harmony server/start.js"
   },
   "keywords": [],
   "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
@@ -22,5 +22,15 @@
     "koa-scss": "^0.2.0",
     "koa-serve": "^0.1.6",
     "reqmany": "0.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.1.20",
+    "babel-plugin-transform-react-constant-elements": "^6.1.20",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "node-libs-browser": "^0.5.3",
+    "webpack": "^1.12.6"
   }
 }
