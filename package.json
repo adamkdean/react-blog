@@ -4,8 +4,8 @@
   "description": "My attempt at a React powered blog",
   "main": "server/app.js",
   "scripts": {
-    "start": "node --harmony server/start.js",
-    "dev": "nodemon -e js,jsx --ignore static/ --harmony server/start.js"
+    "prestart": "gulp components",
+    "start": "node --harmony server/start.js"
   },
   "keywords": [],
   "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
@@ -14,6 +14,9 @@
     "co": "^4.6.0",
     "co-views-ext": "^1.0.1",
     "config": "^1.16.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-notice": "^1.0.3",
     "handlebars": "^4.0.4",
     "koa": "^1.1.2",
     "koa-favicon": "^1.2.0",
@@ -21,6 +24,8 @@
     "koa-router": "^5.2.3",
     "koa-scss": "^0.2.0",
     "koa-serve": "^0.1.6",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
     "reqmany": "0.0.3"
   },
   "devDependencies": {

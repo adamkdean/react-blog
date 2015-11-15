@@ -1,20 +1,16 @@
 'use strict';
 
+const React = require('react'),
+      App = require('../components/App');
+
 module.exports = exports = function *() {
   const app = this;
 
-  // component = React.createElement(ReviewList, opts),
-  // componentHtml = React.renderToString(component);
-  // this.body = yield this.render('index', { html: componentHtml, state: opts });
-
   this.router.get('/', function *(next) {
-    let title = 'Index',
-        html = 'render with react',
-        state = {
-          boolean: true,
-          integer: 15,
-          string: `Yes this is a string`
-        };
+    const title = app.config.applicationName + ' - Index',
+          state = { foo: 'This is a test' },
+          component = React.createElement(App, state),
+          html = React.renderToString(component);
 
     this.body = yield app.render(html, state, title);
     this.status = 200;
