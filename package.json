@@ -34,6 +34,7 @@
     "babel-preset-react": "^6.1.18",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.0",
+    "gulp-nodemon": "^2.0.4",
     "gulp-notice": "^1.0.3",
     "node-libs-browser": "^0.5.3",
     "webpack": "^1.12.6"

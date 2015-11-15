@@ -1,6 +1,7 @@
 'use strict';
 
 const React = require('react'),
+      ReactDOMServer = require('react-dom/server'),
       App = require('../components/App');
 
 module.exports = exports = function *() {
@@ -10,7 +11,7 @@ module.exports = exports = function *() {
     const title = app.config.applicationName + ' - Index',
           state = { foo: 'This is a test' },
           component = React.createElement(App, state),
-          html = React.renderToString(component);
+          html = ReactDOMServer.renderToString(component);
 
     this.body = yield app.render(html, state, title);
     this.status = 200;

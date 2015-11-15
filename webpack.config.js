@@ -13,14 +13,14 @@ Object.assign(config, {
     module: {
         loaders: [{
             loader: 'babel-loader',
-            test: /\.js$/,
-            exclude: /node_modules/,
+            test: /\.(js|jsx)$/,
+            exclude:[' /node_modules/', '/static/'],
             include: path.join(__dirname, 'shared')
         }]
     },
-    plugins: [
-        new webpack.NoErrorsPlugin()
-    ],
+    resolve: {
+      extensions: ['', '.js', '.jsx']
+    },
     stats: {
         colors: true,
         progress: true
@@ -35,7 +35,9 @@ if (process.env.NODE_ENV === 'development') {
 
 if (process.env.NODE_ENV === 'production') {
     Object.assign(config, {
-        // any production config changes go here
+      plugins: [
+          new webpack.NoErrorsPlugin()
+      ]
     });
 }
 
