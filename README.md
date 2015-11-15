@@ -2,7 +2,7 @@
 
 My attempt at a React powered blog.  
 
-Current state: `non-functional`  
+Current state: `functional prototype`
 
 ## Screenshot (v0.1.0)
 
