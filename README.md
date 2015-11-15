@@ -6,10 +6,12 @@ Current state: `non-functional`
 
 ## Components
 
-App
-- Layout
-  - Header
-  - Content
-    - ArticleList
-      - Article
-  - Footer
+A rough list of the components I'll need:
+
+    App
+    - Layout
+      - Header
+      - Content
+        - ArticleList
+          - Article
+      - Footer

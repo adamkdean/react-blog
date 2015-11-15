@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Adam K Dean <adamkdean@googlemail.com> (http://www.adamkdean.co.uk/)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "co": "^4.6.0",
     "co-views-ext": "^1.0.1",
