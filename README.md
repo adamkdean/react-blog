@@ -1,6 +1,8 @@
 # react-blog
 
-My blog, re-written using React.
+My attempt at a React powered blog.  
+
+Current state: `non-functional`  
 
 ## Components
 
