@@ -27,10 +27,15 @@ A rough list of the components I'll need:
     App
     - Layout
       - Header
-      - Content
+      - ArticleContainer
         - ArticleList
           - Article
+        - Pagination
       - Footer
+
+## Observations
+
+I have yet to implement anything like Redux. I feel as though there is something wrong about assigning `this.props.X` to `this.X` in component `constructor`s. There is a lot of repetition and I feel as though I may be doing something wrong. I must look into this.
 
 ## A note about ES6 Modules & CommonJS
 
