@@ -1,22 +1,23 @@
 import React, { PropTypes, Component } from 'react'
+import Header from './Header'
+import Footer from './Footer'
+import ArticleList from './ArticleList'
 
 class App extends Component {
-  buttonClicked(event) {
-    alert('client side is working')
+  constructor(props) {
+    super(props)
+    this.articles = this.props.articles || []
   }
 
   render() {
     return (
       <div>
-        <h1>This is the App component</h1>
-        <p>Foo is `{this.props.foo}`</p>
-        <button onClick={this.buttonClicked}>Click me to test client-side</button>
+        <Header title="React Blog" />
+        <ArticleList articles={this.articles}></ArticleList>
+        <Footer/>
       </div>
     )
   }
 }
 
-// As CommonJS isn't 100% compatible with ES6 modules, we have to
-// fallback to using module.exports, otherwise the consumer
-// would need to write `require('./App').default`
 module.exports = exports = App

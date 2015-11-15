@@ -1,8 +1,3 @@
-/* style.css for react-blog
- * TODO: split out into bigger files */
-
-body {
-  background: #eee;
-  font-fanily: sans-serif;
-  font-size: 1.1rem;
-}
+@import 'vendor/normalize';
+@import 'common/layout';
+@import 'site/blog';

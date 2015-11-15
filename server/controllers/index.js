@@ -9,7 +9,7 @@ module.exports = exports = function *() {
 
   this.router.get('/', function *(next) {
     const title = app.config.applicationName + ' - Index',
-          state = { foo: 'This is a test' },
+          state = { articles: app.config.articles },
           component = React.createElement(App, state),
           html = ReactDOMServer.renderToString(component);
 

@@ -20,7 +20,7 @@ gulp.task('dev', function () {
     ignore: [
       'node_modules/',
       'server/components/',
-      'static/'
+      'static/**/*'
     ],
     tasks: [
       'build'
